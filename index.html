@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styled.css" />
+    <title>Encriptografando</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>E-CRYPT</h1>
+    </header>
+    <main>
+      <div id="div-entrada">
+        <fieldset>Entrada</fieldset>
+        <textarea
+          style="resize: none"
+          name="entrada"
+          id="area-entrada"
+          cols="42"
+          rows="40"
+          placeholder="Digite o texto a ser criptografado/descriptografado aqui."
+        ></textarea>
+        <section>
+          <button id="btn-encrypt">ENCRIPTOGRAFAR</button>
+          <button id="btn-descrypt">DESCRIPTOGRAFAR</button>
+        </section>
+      </div>
+
+      <div id="div-saida">
+        <fieldset>Resultado</fieldset>
+        <textarea
+          style="resize: none"
+          name="saida"
+          id="area-resultado"
+          cols="42"
+          rows="40"
+          placeholder="Veja o seu resultado."
+        ></textarea>
+        <section>
+          <button id="btn-copy">COPIAR</button>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
